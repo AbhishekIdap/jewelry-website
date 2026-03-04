@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Jewellery Retouching Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <nav class="navbar">
+        <div class="logo">JewelsPro</div>
+
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+
+            <li class="dropdown">
+                <a href="#">Services</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Photo Retouching</a></li>
+                    <li><a href="#">Colour Correction</a></li>
+                    <li><a href="#">Background Removal</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">CAD Design</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero-video">
+    <video autoplay muted loop playsinline>
+        <source src="videos/video.mp4" type="video/mp">
+    </video>
+</section>
+<section class="hero-split">
+
+    <!-- LEFT SIDE TEXT -->
+    <div class="hero-left">
+        <span class="small-title">PREMIUM JEWELLERY RETOUCHING</span>
+        <h1>
+            Transform Your Jewellery <br>
+            Into Luxury Visuals
+        </h1>
+        <p>
+            High-end retouching, gemstone enhancement and catalog-ready finishing.
+        </p>
+        <div class="all-category-btn">Get Started</div>
+    </div>
+
+    <!-- RIGHT SIDE SLIDER -->
+    <div class="hero-right">
+        <div class="slider-container">
+            <div class="slider-track">
+                <img src="images/slide1.jpg" />
+                <img src="images/slide2.jpg" />
+                <img src="images/slide3.jpg" />
+                <img src="images/slide4.jpg" />
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="categories-section">
+    <div class="categories-wrapper">
+
+        <!-- LEFT GRID -->
+        <div class="categories-grid">
+
+            <div class="category-box">
+                <img src="images/brace1.png" alt="">
+                <p>Bracelets</p>
+            </div>
+
+            <div class="category-box">
+                <img src="images/earing1.png" alt="">
+                <p>Earrings</p>
+            </div>
+
+            <div class="category-box">
+                <img src="images/ring.jpg" alt="">
+                <p>Rings</p>
+            </div>
+
+            <div class="category-box">
+                <video autoplay muted loop playsinline>
+                <source src="videos/ringg.mp4" type="video/mp4">
+                </video>
+                <p>Charms</p>
+            </div>
+
+            <div class="category-box">
+                  <video autoplay muted loop playsinline>
+                <source src="videos/ringgg.mp4" type="video/mp4">
+                </video>
+                <p>Necklaces</p>
+            </div>
+
+            <div class="category-box">
+                <video autoplay muted loop playsinline>
+                <source src="videos/ringggg.mp4" type="video/mp4">
+                </video>
+                <p>Wedding & Bridal</p>
+            </div>
+
+        </div>
+
+        <!-- RIGHT CONTENT -->
+        <div class="categories-content">
+            <span class="small-title">FIND YOUR FAVOURITES</span>
+            <h2>
+                Jewelry Editing Services <br>
+                Redefines The Visuals <br>
+                Of Jewelleries
+            </h2>
+
+            <div class="all-category-btn">
+                <span>All Categories</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+<script src="script.js"></script>
+
+<!-- FEATURES STRIP -->
+<section class="features-strip">
+
+    <div class="feature-item">
+        <h3>24 Hour Delivery</h3>
+        <p>Fast turnaround without compromising quality.</p>
+    </div>
+
+    <div class="feature-item">
+        <h3>100% Hand Retouching</h3>
+        <p>No AI shortcuts. Professional manual editing.</p>
+    </div>
+
+    <div class="feature-item">
+        <h3>Luxury Finishing</h3>
+        <p>High-end polish for catalog & ecommerce.</p>
+    </div>
+
+    <div class="feature-item">
+        <h3>Unlimited Revisions</h3>
+        <p>We refine until you are satisfied.</p>
+    </div>
+
+</section>
+
+<!-- INTERACTIVE BEFORE AFTER SLIDER -->
+<section class="before-after-interactive">
+
+    <h2>Interactive Before & After</h2>
+    <p>Drag the slider to see the transformation.</p>
+
+    <div class="compare-wrapper">
+        <div class="compare-container">
+
+            <!-- AFTER IMAGE -->
+            <img src="images/after.png" class="after-img">
+
+            <!-- BEFORE IMAGE -->
+            <div class="before-wrapper">
+                <img src="images/before.png">
+            </div>
+
+            <!-- HANDLE -->
+            <div class="slider-handle"></div>
+
+        </div>
+    </div>
+
+</section>
+
+<!-- BEFORE AFTER SECTION -->
+<section class="before-after">
+    <h2>Before & After Retouching</h2>
+    <p>See how we transform ordinary jewellery images into stunning high-end visuals.</p>
+
+    <div class="compare-container">
+        <div class="image-box">
+            <h3>Before</h3>
+            <img src="images/before.png" alt="Before">
+        </div>
+        <div class="image-box">
+            <h3>After</h3>
+            <img src="images/after.png" alt="After">
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES SECTION -->
+<section class="services">
+    <h2>Our Retouching Services</h2>
+    <div class="service-grid">
+        <div class="service-card">
+            <h3>Background Cleaning</h3>
+            <p>Remove dust, scratches, and unwanted reflections.</p>
+        </div>
+        <div class="service-card">
+            <h3>Color Correction</h3>
+            <p>Enhance gemstone shine and metal color accuracy.</p>
+        </div>
+        <div class="service-card">
+            <h3>High-End Polish</h3>
+            <p>Luxury finish for catalog and e-commerce platforms.</p>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 JewelsPro | Professional Jewellery Retouching</p>
+    <p>Email: info@jewelspro.com | Phone: +91 9876543210</p>
+</footer>
+
+</body>
+</html>
